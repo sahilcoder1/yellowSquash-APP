@@ -1,0 +1,437 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yellowsquash.app.yellow_squash.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:nb_utils] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+15-->[:nb_utils] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/nb_utils/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-76
+16
+17    <queries>
+17-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+18        <intent>
+18-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+19            <action android:name="android.support.customtabs.action.CustomTabsService" />
+19-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-90
+19-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-87
+20        </intent>
+21        <intent>
+21-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:11:9-17:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
+22-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
+23
+24            <data
+24-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
+25                android:mimeType="*/*"
+25-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
+26                android:scheme="*" />
+26-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
+27        </intent>
+28        <intent>
+28-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:18:9-27:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:13-65
+29-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:12:21-62
+30
+31            <category android:name="android.intent.category.BROWSABLE" />
+31-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:13-74
+31-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:21:23-71
+32
+33            <data
+33-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
+34                android:host="pay"
+35                android:mimeType="*/*"
+35-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
+36                android:scheme="upi" />
+36-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:16:17-35
+37        </intent>
+38        <intent>
+38-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:28:9-30:18
+39            <action android:name="android.intent.action.MAIN" />
+39-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:13-65
+39-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:21-62
+40        </intent>
+41        <intent>
+41-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:31:9-35:18
+42            <action android:name="android.intent.action.SEND" />
+42-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:13-65
+42-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:32:21-62
+43
+44            <data android:mimeType="*/*" />
+44-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:14:13-16:38
+44-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:15:17-39
+45        </intent>
+46        <intent>
+46-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:36:9-38:18
+47            <action android:name="rzp.device_token.share" />
+47-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
+47-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
+48        </intent>
+49    </queries>
+50
+51    <uses-feature
+51-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+52        android:glEsVersion="0x00020000"
+52-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+53        android:required="true" />
+53-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+54
+55    <permission
+55-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+56        android:name="com.yellowsquash.app.yellow_squash.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+56-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+57        android:protectionLevel="signature" />
+57-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+58
+59    <uses-permission android:name="com.yellowsquash.app.yellow_squash.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+59-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+59-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+60
+61    <application
+62        android:name="android.app.Application"
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.10.1] /Users/king/.gradle/caches/transforms-3/6ee4246d9abac3f2706798696b169c47/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+64        android:debuggable="true"
+65        android:icon="@mipmap/launcher_icon"
+66        android:label="YellowSquash" >
+67        <activity
+68            android:name="com.yellowsquash.app.yellow_squash.MainActivity"
+69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70            android:enableOnBackInvokedCallback="true"
+71            android:exported="true"
+72            android:hardwareAccelerated="true"
+73            android:launchMode="singleTop"
+74            android:theme="@style/LaunchTheme"
+75            android:windowSoftInputMode="adjustResize" >
+76
+77            <!--
+78                 Specifies an Android theme to apply to this Activity as soon as
+79                 the Android process has started. This theme is visible to the user
+80                 while the Flutter UI initializes. After that, this theme continues
+81                 to determine the Window background behind the Flutter UI.
+82            -->
+83            <meta-data
+84                android:name="io.flutter.embedding.android.NormalTheme"
+85                android:resource="@style/NormalTheme" />
+86
+87            <intent-filter>
+88                <action android:name="android.intent.action.MAIN" />
+88-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:13-65
+88-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:21-62
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+91            </intent-filter>
+92        </activity>
+93        <!--
+94             Don't delete the meta-data below.
+95             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+96        -->
+97        <meta-data
+98            android:name="flutterEmbedding"
+99            android:value="2" />
+100
+101        <provider
+101-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+102            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+102-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+103            android:authorities="com.yellowsquash.app.yellow_squash.dev.flutter.image_provider"
+103-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+104            android:exported="false"
+104-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+105            android:grantUriPermissions="true" >
+105-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+106            <meta-data
+106-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+108                android:resource="@xml/flutter_image_picker_file_paths" />
+108-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+109        </provider>
+110
+111        <activity
+111-->[:url_launcher_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+112            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+112-->[:url_launcher_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+113            android:exported="false"
+113-->[:url_launcher_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+114            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+114-->[:url_launcher_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+115        <activity
+115-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:47
+116            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+116-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-104
+117            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+117-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-137
+118            android:exported="false"
+118-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+119            android:theme="@style/AppTheme" />
+119-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-44
+120        <activity
+120-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-22:55
+121            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+121-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-112
+122            android:exported="false"
+122-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+123            android:theme="@style/ThemeTransparent" />
+123-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-52
+124        <activity
+124-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-26:55
+125            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+125-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-106
+126            android:exported="false"
+126-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-37
+127            android:theme="@style/ThemeTransparent" />
+127-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-52
+128        <activity
+128-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-31:55
+129            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+129-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-126
+130            android:exported="false"
+130-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-37
+131            android:launchMode="singleInstance"
+131-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-48
+132            android:theme="@style/ThemeTransparent" />
+132-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-52
+133        <activity
+133-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-36:55
+134            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+134-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-120
+135            android:exported="false"
+135-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-37
+136            android:launchMode="singleInstance"
+136-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-48
+137            android:theme="@style/ThemeTransparent" />
+137-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-52
+138
+139        <receiver
+139-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-41:40
+140            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+140-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-111
+141            android:enabled="true"
+141-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-35
+142            android:exported="false" />
+142-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-37
+143
+144        <meta-data
+144-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45:36
+145            android:name="io.flutter.embedded_views_preview"
+145-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-61
+146            android:value="true" />
+146-->[:flutter_inappwebview] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-33
+147        <!--
+148           Declares a provider which allows us to store files to share in
+149           '.../caches/share_plus' and grant the receiving action access
+150        -->
+151        <provider
+151-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:20
+152            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+152-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-77
+153            android:authorities="com.yellowsquash.app.yellow_squash.dev.flutter.share_provider"
+153-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-74
+154            android:exported="false"
+154-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+155            android:grantUriPermissions="true" >
+155-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+156            <meta-data
+156-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+157                android:name="android.support.FILE_PROVIDER_PATHS"
+157-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+158                android:resource="@xml/flutter_share_file_paths" />
+158-->[:image_picker_android] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+159        </provider>
+160        <!--
+161           This manifest declared broadcast receiver allows us to use an explicit
+162           Intent when creating a PendingItent to be informed of the user's choice
+163        -->
+164        <receiver
+164-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-32:20
+165            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+165-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-82
+166            android:exported="false" >
+166-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+167            <intent-filter>
+167-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+168                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+168-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-65
+168-->[:share_plus] /Users/king/Desktop/YellowSquash_UserApp/yellow_sqaush/build/share_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-62
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:42:9-49:20
+172            android:name="com.razorpay.RzpTokenReceiver"
+172-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:43:13-57
+173            android:exported="true" >
+173-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:44:13-36
+174            <intent-filter>
+174-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:46:13-48:29
+175                <action android:name="rzp.device_token.share" />
+175-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:13-61
+175-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:37:21-58
+176            </intent-filter>
+177        </receiver>
+178
+179        <activity
+179-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:51:9-59:20
+180            android:name="com.razorpay.CheckoutActivity"
+180-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:52:13-57
+181            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+181-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:53:13-83
+182            android:exported="false"
+182-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:54:13-37
+183            android:theme="@style/CheckoutTheme" >
+183-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:55:13-49
+184            <intent-filter>
+184-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:56:13-58:29
+185                <action android:name="android.intent.action.MAIN" />
+185-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:13-65
+185-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:29:21-62
+186            </intent-filter>
+187        </activity>
+188
+189        <meta-data
+189-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:61:9-63:58
+190            android:name="com.razorpay.plugin.googlepay_all"
+190-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:62:13-61
+191            android:value="com.razorpay.RzpGpayMerged" />
+191-->[com.razorpay:checkout:1.6.36] /Users/king/.gradle/caches/transforms-3/df19282291fde62d8f9d7f288edc26ce/transformed/jetified-checkout-1.6.36/AndroidManifest.xml:63:13-55
+192
+193        <activity
+193-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+194            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+194-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+195            android:excludeFromRecents="true"
+195-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+198        <!--
+199            Service handling Google Sign-In user revocation. For apps that do not integrate with
+200            Google Sign-In, this service will never be started.
+201        -->
+202        <service
+202-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+203            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+203-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+204            android:exported="true"
+204-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+205            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+205-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+206            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+206-->[com.google.android.gms:play-services-auth:20.4.0] /Users/king/.gradle/caches/transforms-3/96c91fd34f7172104904d29685b64e1c/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+207        <uses-library
+207-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+208            android:name="org.apache.http.legacy"
+208-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+209            android:required="false" />
+209-->[com.google.android.gms:play-services-maps:17.0.0] /Users/king/.gradle/caches/transforms-3/6dadd39e796ef3c5be4999cb26e0d3ca/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+210
+211        <activity
+211-->[com.google.android.gms:play-services-base:18.0.1] /Users/king/.gradle/caches/transforms-3/d67e66e462d01fdb73b00738e1f66ef0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+212            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+212-->[com.google.android.gms:play-services-base:18.0.1] /Users/king/.gradle/caches/transforms-3/d67e66e462d01fdb73b00738e1f66ef0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+213            android:exported="false"
+213-->[com.google.android.gms:play-services-base:18.0.1] /Users/king/.gradle/caches/transforms-3/d67e66e462d01fdb73b00738e1f66ef0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+214-->[com.google.android.gms:play-services-base:18.0.1] /Users/king/.gradle/caches/transforms-3/d67e66e462d01fdb73b00738e1f66ef0/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+215
+216        <meta-data
+216-->[com.google.android.gms:play-services-basement:18.1.0] /Users/king/.gradle/caches/transforms-3/ba2a129d2767d23d31746550d76d7a66/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+217            android:name="com.google.android.gms.version"
+217-->[com.google.android.gms:play-services-basement:18.1.0] /Users/king/.gradle/caches/transforms-3/ba2a129d2767d23d31746550d76d7a66/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+218            android:value="@integer/google_play_services_version" />
+218-->[com.google.android.gms:play-services-basement:18.1.0] /Users/king/.gradle/caches/transforms-3/ba2a129d2767d23d31746550d76d7a66/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+219
+220        <provider
+220-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+221            android:name="androidx.startup.InitializationProvider"
+221-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+222            android:authorities="com.yellowsquash.app.yellow_squash.dev.androidx-startup"
+222-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+223            android:exported="false" >
+223-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+224            <meta-data
+224-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+225                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+225-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+226                android:value="androidx.startup" />
+226-->[androidx.emoji2:emoji2:1.2.0] /Users/king/.gradle/caches/transforms-3/77cc0f34753f96ba7c5a2659a281396c/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+227            <meta-data
+227-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/king/.gradle/caches/transforms-3/f0ef88a55ff932e7aafeee2b7c493b8c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+228                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+228-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/king/.gradle/caches/transforms-3/f0ef88a55ff932e7aafeee2b7c493b8c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+229                android:value="androidx.startup" />
+229-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/king/.gradle/caches/transforms-3/f0ef88a55ff932e7aafeee2b7c493b8c/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+230            <meta-data
+230-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+231                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+232                android:value="androidx.startup" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+233        </provider>
+234
+235        <uses-library
+235-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+236            android:name="androidx.window.extensions"
+236-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+237            android:required="false" />
+237-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+238        <uses-library
+238-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+239            android:name="androidx.window.sidecar"
+239-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+240            android:required="false" />
+240-->[androidx.window:window:1.0.0-beta04] /Users/king/.gradle/caches/transforms-3/518111e08d93c16bc666f5016f25f03d/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+241
+242        <receiver
+242-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+243-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+244            android:directBootAware="false"
+244-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+245            android:enabled="true"
+245-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+246            android:exported="true"
+246-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+247            android:permission="android.permission.DUMP" >
+247-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+249-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+252                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+252-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+253            </intent-filter>
+254            <intent-filter>
+254-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+255                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+256            </intent-filter>
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+258                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/king/.gradle/caches/transforms-3/2728ca641ebd0cc6e688705d89989bc4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+259            </intent-filter>
+260        </receiver>
+261    </application>
+262
+263</manifest>
